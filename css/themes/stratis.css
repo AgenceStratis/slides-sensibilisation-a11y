@@ -629,6 +629,10 @@ button.disc1:focus {
 	padding: 1rem;
 }
 
+.slide .encadre.--light {
+	font-family: 'os-light';
+}
+
 .showalt {
 	position: relative;
 	display: inline-block;
