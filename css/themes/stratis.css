@@ -339,27 +339,26 @@ q {
 	margin: 0.5em 0;
 }
 
-/*.slide .small {*/
+.slide .small {
+	font-family: 'os-light';
+	font-size: 70%;
+	font-weight: normal;
+}
 
-/*    font-size: 70%;*/
-
-/*    font-weight: normal;*/
-
-/*}*/
-
-/*.slide .small * {*/
-
-/*    font-size: 100%;*/
-
-/*    font-weight: normal;*/
-
-/*}*/
+.slide .small * {
+	font-size: 100%;
+	font-weight: normal;
+}
 
 /**
  * -------------------------
  * @section 3. HEADER
  * -------------------------
  */
+
+.main-logo {
+	max-width: 200px;
+}
 
 .main-header h1 {
 	font-size: 3vh;
