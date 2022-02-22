@@ -366,9 +366,13 @@ q {
 	font-weight: normal;
 }
 
-.modeplan .main-header {
+.main-header {
 	background: #fff;
 	box-shadow: 0 2px 3px #bbb;
+}
+
+.modeplan .main-header {
+	position: static;
 }
 
 /**
@@ -401,6 +405,11 @@ q {
 .select-goto {
 	color: #000;
 	border: none;
+}
+
+.slide-simple,
+.slide-double {
+	padding-top: 3.5rem;
 }
 
 .slide-counter-current {
@@ -702,9 +711,7 @@ h3 + * {
 }
 
 .main-header {
-	background: #fff;
 	padding: 5px;
-	box-shadow: 0 2px 3px #bbb;
 }
 
 .tool-bar {
