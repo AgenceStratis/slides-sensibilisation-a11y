@@ -341,13 +341,13 @@ q {
 
 .slide .small {
 	font-family: 'os-light';
-    font-size: 70%;
-    font-weight: normal;
+	font-size: 70%;
+	font-weight: normal;
 }
 
 .slide .small * {
-    font-size: 100%;
-    font-weight: normal;
+	font-size: 100%;
+	font-weight: normal;
 }
 
 /**
@@ -568,6 +568,8 @@ button.disc1:focus {
 
 .tool-block-settings legend {
 	font-size: 1.5em;
+	-moz-font-feature-settings: "c2sc";
+	font-feature-settings: "c2sc";
 	-moz-font-feature-settings: "c2sc";
 	font-feature-settings: "c2sc";
 	font-variant: small-caps;
