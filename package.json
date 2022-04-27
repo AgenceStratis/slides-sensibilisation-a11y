@@ -4,7 +4,7 @@
   "description": "An accessible and modern HTML5-CSS-JS framework for presentation",
   "main": "index.htm",
   "dependencies": {
-    "grunt": "^1.0.4",
+    "grunt": "^1.5.2",
     "grunt-css": "^0.5.4",
     "grunt-combine-media-queries": "^1.0.20",
     "grunt-contrib-watch": "^1.1.0",
